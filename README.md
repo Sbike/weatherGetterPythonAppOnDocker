@@ -33,9 +33,9 @@ These instructions will get you a copy of the project up and running on your loc
     ```bash
     docker run -it yourusername/weather-app
     ```
-    Follow the prompts in the application.
+    Follow the prompts in the application to test it.
 
-3. **Push the Image to Docker Hub (optional)**
+3. **Push the Image to Docker Hub (optional for sharing with someone)**
 
     First, log in to Docker Hub:
     ```bash
@@ -54,6 +54,16 @@ These instructions will get you a copy of the project up and running on your loc
     docker run -it yourusername/weather-app
     ```
 
+## Faster Use
+For a faster use, you can directly pull my image from https://hub.docker.com/r/leroyhubert/weather-app using the command 
+
+```bash
+docker pull leroyhubert/weather-app
+```
+and run it with 
+```bash
+docker run -it leroyhubert/weather-app
+```
 
 ## Authors
 
